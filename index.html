@@ -1,56 +1,207 @@
 
-
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
+
 <head>
-      <meta charset="UTF-8">
-      <title>My Retail Store</title>
-      <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalahari Tech | Home</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-      <!-- Header Section -->
-      <header>
-      `     <h1>Gilberts Consultancy</h1>
-            <p>International data consultants .</p>
-      </header>
-      <!-- Navigation -->
-<nav>
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="aboutus.html">About us</a>
-      <a href="#">Contact</a>
-</nav>
-<!-- Main Content -->
-<main>
 
-<section>
-      <h2>Our mission</h2>
-      <p> —To Analyze data, Identify problems, and recommend changes to inmprove perfomance</p>
-</section>
-      <h3>products</h3>
-      
-      <div class="product">
-      <h4>Data Visualisatuon</h4>
-      <p>Interactive Dash to help clients visualise key metrics.</p>
-</div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
 
-      <div class="product">
-      <h4> Predictive Analitics Models</h4>
-      <p>Models to forecast trends and outcomes .</p>
-</div>
+            <a class="navbar-brand" href="index.html">
+               <img src="image/logo.png.webp"
+                 alt="Kalahari Tech Logo"
+                   width="50"
+                   class="img-fluid">
+                Kalahari Tech
+            </a>
 
-      <div class="product">
-      <h4>Data Strategy REports</h4>
-      <p>In depth reports outlining data strategy and recomendations.</p>
-</div>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarMenu">
 
-</section>
+                <span class="navbar-toggler-icon"></span>
 
-<!-- Footer -->
-<footer>
-      <p>&copy; 2026 my retail store. All rights reserved.</p>
-</footer>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">
+                            Products
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">
+                            Services
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">
+                            Feedback
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="container text-center mt-5">
+
+        <h1 class="display-4">
+            Welcome to Kalahari Tech
+        </h1>
+
+        <p class="lead mt-3">
+            Botswana's trusted technology partner.
+        </p>
+
+       <a href="products.html"
+   class="btn btn-primary mt-3">
+
+    Explore Products
+
+</a>
+
+    </section>
+
+
+    <!-- Featured Products -->
+    <section class="container mt-5">
+
+        <h2 class="text-center mb-4">
+            Featured Products
+        </h2>
+
+        <div class="row">
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+
+                <div class="card">
+
+                    <img src="image/product1.jpj.jpg"
+                         alt="Laptop"
+                         width="100%"
+                         class="img-fluid">
+
+                    <div class="card-body">
+
+                        <h5>Gaming Laptop</h5>
+
+                        <p>
+                            High performance laptops for work and gaming.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+
+                <div class="card">
+
+                    <img src="image/product2.jpg"
+                         alt="Smartphone"
+                         width="100%"
+                          class="img-fluid">
+
+                    <div class="card-body">
+
+                        <h5>Smartphones</h5>
+
+                        <p>
+                            Latest mobile technology.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4">
+
+                <div class="card">
+
+                    <img src="image/product3.jpg"
+                         alt="Accessories"
+                         width="100%"
+                           class="img-fluid">
+
+                    <div class="card-body">
+
+                        <h5>Accessories</h5>
+
+                        <p>
+                            Quality chargers, headphones and gadgets.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-4 mt-5">
+
+        <p>
+            © 2026 Kalahari Tech. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- External JavaScript -->
+    <script src="js/script.js"></script>
 
 </body>
+
+</html>
 
